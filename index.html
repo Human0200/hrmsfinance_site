@@ -60,12 +60,6 @@
 
 <body class="font-sans bg-gray-50 overflow-x-hidden">
     <!-- Header -->
-<!-- Topbar -->
-    
-
-
-
-
     <header class="relative fixed top-0 left-0 w-full bg-gradient-to-r from-blue-600 to-blue-400 shadow-md z-[9999]">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
             <div class="flex items-center">
@@ -88,7 +82,6 @@
                 <a href="contacts.html" class="text-white hover:text-yellow-300 font-medium">Контакты</a>
             </nav>
             <div class="flex flex-col items-center space-y-2">
-              <!-- Первый ряд: WhatsApp + Telegram -->
               <div class="flex items-center space-x-4">
                 <a href="https://wa.me/79672550033" class="text-green-300 hover:text-green-100">
                   <i class="fab fa-whatsapp text-2xl"></i>
@@ -97,7 +90,6 @@
                   <i class="fab fa-telegram text-2xl"></i>
                 </a>
               </div>
-              <!-- Второй ряд: Телефон + Почта -->
               <div class="flex items-center space-x-4">
                 <a href="tel:+74950656560" class="text-white hover:text-green-200">
                   <i class="fas fa-phone text-2xl"></i>
@@ -106,18 +98,14 @@
                   <i class="fas fa-envelope text-2xl"></i>
                 </a>
               </div>
-              <!-- Мобильная кнопка -->
               <button class="md:hidden text-white" id="mobile-menu-button">
                 <i class="fas fa-bars text-2xl"></i>
               </button>
             </div>
-        
+        </div>
 
         <!-- Mobile menu -->
-        <div
-            id="mobile-menu"
-            class="absolute top-full left-0 w-full bg-blue-500 py-2 px-4 shadow-md z-[9998] md:hidden hidden"
-        >
+        <div id="mobile-menu" class="absolute top-full left-0 w-full bg-blue-500 py-2 px-4 shadow-md z-[9998] md:hidden hidden">
             <a href="#services" class="block py-2 text-white hover:text-yellow-300">Услуги</a>
             <a href="#advantages" class="block py-2 text-white hover:text-yellow-300">Преимущества</a>
             <a href="about.html" class="block py-2 text-white hover:text-yellow-300">О нас</a>
@@ -128,7 +116,6 @@
             <a href="contacts.html" class="block py-2 text-white hover:text-yellow-300">Контакты</a>
         </div>
     </header>
-
 
     <!-- Hero Section -->
     <div class="pt-0">
@@ -304,7 +291,6 @@
                 <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Наши преимущества</h2>
                 
                 <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                    <!-- Advantage 1 -->
                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
                         <div class="bg-green-100 text-green-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                             <i class="fas fa-percentage text-2xl"></i>
@@ -313,7 +299,6 @@
                         <p class="text-gray-600">Мы получаем специальные условия от банков для наших клиентов</p>
                     </div>
                     
-                    <!-- Advantage 2 -->
                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
                         <div class="bg-blue-100 text-blue-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                             <i class="fas fa-clock text-2xl"></i>
@@ -322,7 +307,6 @@
                         <p class="text-gray-600">Быстро подберем лучший вариант без лишних хлопот</p>
                     </div>
                     
-                    <!-- Advantage 3 -->
                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
                         <div class="bg-purple-100 text-purple-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                             <i class="fas fa-hand-holding-usd text-2xl"></i>
@@ -331,7 +315,6 @@
                         <p class="text-gray-600">Вы платите только после успешного получения средств</p>
                     </div>
                     
-                    <!-- Advantage 4 -->
                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
                         <div class="bg-yellow-100 text-yellow-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                             <i class="fas fa-handshake text-2xl"></i>
@@ -340,7 +323,6 @@
                         <p class="text-gray-600">Прямые договоры с ведущими банками страны</p>
                     </div>
                     
-                    <!-- Advantage 5 -->
                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
                         <div class="bg-red-100 text-red-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                             <i class="fas fa-id-card text-2xl"></i>
@@ -349,7 +331,6 @@
                         <p class="text-gray-600">Минимальный пакет документов для оформления</p>
                     </div>
                     
-                    <!-- Advantage 6 -->
                     <div class="bg-white p-6 rounded-lg shadow-md text-center">
                         <div class="bg-indigo-100 text-indigo-800 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
                             <i class="fas fa-user-tie text-2xl"></i>
@@ -470,7 +451,6 @@
                 
                 <div class="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div>
-                        
                         <div class="space-y-4">
                             <a href="tel:+74950656560" class="flex items-center text-gray-600 hover:text-gray-800">
                               <i class="fas fa-phone text-2xl mr-3"></i>
@@ -491,7 +471,7 @@
                         </div>
                         
                         <h3 class="text-xl font-bold mt-8 mb-4 text-gray-800">Заказать обратный звонок</h3>
-    
+
                         <form id="contact-form" class="space-y-4">
                         <div>
                             <label for="name" class="block text-gray-700 font-medium mb-1">Ваше имя</label>
@@ -514,62 +494,18 @@
                             />
                         </div>
                         
-                        <input type="hidden" name="loan_amount"      id="hid-loan-amount">
-                        <input type="hidden" name="loan_term"        id="hid-loan-term">
-                        <input type="hidden" name="interest_rate"    id="hid-interest-rate">
-                        <input type="hidden" name="payment_type"     id="hid-payment-type">
-                        <input type="hidden" name="monthly_payment"  id="hid-monthly-payment">
-                        <input type="hidden" name="total_payment"    id="hid-total-payment">
-                        <input type="hidden" name="overpayment"      id="hid-overpayment">
-                        <input type="hidden" name="lead_source"      id="hid-lead-source" value="calculator">
-                        <!--для CRM -->
-                        <input type="hidden" name="page_url"         id="hid-page-url">
-                        <input type="hidden" name="utm_source"       id="hid-utm-source">
-                        <input type="hidden" name="utm_medium"       id="hid-utm-medium">
-                        <input type="hidden" name="utm_campaign"     id="hid-utm-campaign">
-                        <input type="hidden" name="utm_content"      id="hid-utm-content">
-                        <input type="hidden" name="utm_term"         id="hid-utm-term">
-
+                        <input type="hidden" name="lead_source" value="callback_form">
+                        <input type="hidden" name="page_url" id="hid-page-url">
+                        <input type="hidden" name="utm_source" id="hid-utm-source">
+                        <input type="hidden" name="utm_medium" id="hid-utm-medium">
+                        <input type="hidden" name="utm_campaign" id="hid-utm-campaign">
+                        <input type="hidden" name="utm_content" id="hid-utm-content">
+                        <input type="hidden" name="utm_term" id="hid-utm-term">
                         
                         <button type="submit" class="w-full bg-green-500 text-white py-3 px-6 rounded-lg hover:bg-green-600 transition duration-300">
                             Заказать звонок
                         </button>
                         </form>
-    
-                        <script>
-                        document.addEventListener('DOMContentLoaded', () => {
-                          const ACTION_URL  = "https://docs.google.com/forms/d/e/1FAIpQLSf7HHsOuGl0Z1KAr_dPbddbWHf1KHmTdTZc22_nORdwJZFCEw/formResponse";
-                          const NAME_ENTRY  = "entry.595405184";   // Имя
-                          const PHONE_ENTRY = "entry.924126946";   // Телефон
-                          const closeBtn = document.getElementById('loan-modal-close');
-                          if (closeBtn) closeBtn.addEventListener('click', closeLoanModal);
-                        
-                          const form = document.getElementById('contact-form');
-                          if (!form) return;
-                        
-                          form.addEventListener('submit', async (e) => {
-                            e.preventDefault();
-                        
-                            // ВАЖНО: у инпутов должны быть name="name" и name="phone" (или поправь селекторы ниже)
-                            const name  = (form.querySelector('[name="name"]')  ?.value || '').trim();
-                            const phone = (form.querySelector('[name="phone"]') ?.value || '').trim();
-                        
-                            if (!phone) { alert('Укажите телефон'); return; }
-                        
-                            const fd = new FormData();
-                            fd.append(NAME_ENTRY,  name);
-                            fd.append(PHONE_ENTRY, phone);
-                        
-                            try {
-                              await fetch(ACTION_URL, { method: 'POST', body: fd, mode: 'no-cors' });
-                              alert('Спасибо! Мы скоро свяжемся с вами.');
-                              form.reset();
-                            } catch (e2) {
-                              alert('Не удалось отправить. Попробуйте ещё раз.');
-                            }
-                          });
-                        });
-                        </script>
                     </div>
                     
                     <div>
@@ -667,6 +603,85 @@
         </div>
     </div>
 
+    <!-- Modal: Заявка на кредит -->
+    <div id="loan-modal" class="fixed inset-0 z-[10000] hidden">
+      <div class="absolute inset-0 bg-black/50"></div>
+      <div class="relative mx-auto my-10 w-[92%] max-w-md rounded-2xl bg-white shadow-xl">
+        <div class="flex items-center justify-between p-4 border-b">
+          <h3 class="text-lg font-semibold">Заявка на кредит</h3>
+          <button id="loan-modal-close" type="button" class="text-gray-500 hover:text-gray-700">
+            ✕
+          </button>
+        </div>
+    
+        <form id="loan-modal-form" class="p-4 space-y-4">
+          <div>
+            <label class="block text-sm font-medium mb-1" for="lead-name">Ваше имя</label>
+            <input id="lead-name" name="name" type="text"
+                   class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-500" required>
+          </div>
+          <div>
+            <label class="block text-sm font-medium mb-1" for="lead-phone">Телефон</label>
+            <input id="lead-phone" name="phone" type="tel"
+                   class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-500" required>
+          </div>
+    
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
+            <div>
+              <label class="block mb-1">Сумма</label>
+              <input id="ui-loan-amount" type="text" class="w-full p-2 border rounded" readonly>
+            </div>
+            <div>
+              <label class="block mb-1">Срок (мес.)</label>
+              <input id="ui-loan-term" type="text" class="w-full p-2 border rounded" readonly>
+            </div>
+            <div>
+              <label class="block mb-1">Ставка (%)</label>
+              <input id="ui-interest-rate" type="text" class="w-full p-2 border rounded" readonly>
+            </div>
+            <div>
+              <label class="block mb-1">Тип платежа</label>
+              <input id="ui-payment-type" type="text" class="w-full p-2 border rounded" readonly>
+            </div>
+            <div>
+              <label class="block mb-1">Ежемесячный платёж</label>
+              <input id="ui-monthly-payment" type="text" class="w-full p-2 border rounded" readonly>
+            </div>
+            <div>
+              <label class="block mb-1">Итого выплат</label>
+              <input id="ui-total-payment" type="text" class="w-full p-2 border rounded" readonly>
+            </div>
+            <div class="sm:col-span-2">
+              <label class="block mb-1">Переплата</label>
+              <input id="ui-overpayment" type="text" class="w-full p-2 border rounded" readonly>
+            </div>
+          </div>
+    
+          <input type="hidden" name="loan_amount"      id="hid-loan-amount">
+          <input type="hidden" name="loan_term"        id="hid-loan-term">
+          <input type="hidden" name="interest_rate"    id="hid-interest-rate">
+          <input type="hidden" name="payment_type"     id="hid-payment-type">
+          <input type="hidden" name="monthly_payment"  id="hid-monthly-payment">
+          <input type="hidden" name="total_payment"    id="hid-total-payment">
+          <input type="hidden" name="overpayment"      id="hid-overpayment">
+          <input type="hidden" name="lead_source"      value="calculator_modal">
+          <input type="hidden" name="page_url"         id="modal-page-url">
+          <input type="hidden" name="utm_source"       id="modal-utm-source">
+          <input type="hidden" name="utm_medium"       id="modal-utm-medium">
+          <input type="hidden" name="utm_campaign"     id="modal-utm-campaign">
+          <input type="hidden" name="utm_content"      id="modal-utm-content">
+          <input type="hidden" name="utm_term"         id="modal-utm-term">
+    
+          <button type="submit" class="w-full bg-green-500 text-white py-3 rounded-lg hover:bg-green-600">
+            Отправить заявку
+          </button>
+    
+          <p class="text-xs text-gray-500 text-center">
+            Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
+          </p>
+        </form>
+      </div>
+    </div>
 
     <script>
         // Mobile menu toggle
@@ -684,7 +699,6 @@
         let currentIndex = 0;
         const slideCount = document.querySelectorAll('.service-slide').length;
         
-        // Auto slide
         let slideInterval = setInterval(nextSlide, 5000);
         
         function goToSlide(index) {
@@ -763,12 +777,10 @@
             let payment, total, over;
             
             if (paymentType === 'annuity') {
-                // Аннуитетный платеж
                 payment = amount * (rate * Math.pow(1 + rate, term)) / (Math.pow(1 + rate, term) - 1);
                 total = payment * term;
                 over = total - amount;
             } else {
-                // Дифференцированный платеж
                 const principal = amount / term;
                 let totalInterest = 0;
                 
@@ -778,7 +790,7 @@
                     totalInterest += interest;
                 }
                 
-                payment = principal + (amount * rate); // Первый платеж
+                payment = principal + (amount * rate);
                 total = amount + totalInterest;
                 over = totalInterest;
             }
@@ -803,182 +815,7 @@
             radio.addEventListener('change', calculateLoan);
         });
         
-        // Initialize calculator
         calculateLoan();
-        
-        
-        
-        (function() {
-          const $ = (s) => document.querySelector(s);
-          const parseMoneyText = (txt) => +(String(txt || '').replace(/[^\d.-]/g, '')) || 0;
-        
-          function readCalcState() {
-            const paymentType = document.querySelector('input[name="payment-type"]:checked')?.value || 'annuity';
-            return {
-              amount:  parseFloat(document.getElementById('loan-amount')?.value || 0),
-              term:    parseFloat(document.getElementById('loan-term')?.value || 0),
-              rate:    parseFloat(document.getElementById('interest-rate')?.value || 0),
-              type:    paymentType,
-              monthly: parseMoneyText(document.getElementById('monthly-payment')?.textContent),
-              total:   parseMoneyText(document.getElementById('total-payment')?.textContent),
-              over:    parseMoneyText(document.getElementById('overpayment')?.textContent),
-            };
-          }
-        
-          function pushCalcToForm() {
-            const s = readCalcState();
-            const f = document.getElementById('contact-form');
-            if (!f) return;
-            f.querySelector('#hid-loan-amount').value     = s.amount;
-            f.querySelector('#hid-loan-term').value       = s.term;
-            f.querySelector('#hid-interest-rate').value   = s.rate;
-            f.querySelector('#hid-payment-type').value    = s.type;
-            f.querySelector('#hid-monthly-payment').value = s.monthly;
-            f.querySelector('#hid-total-payment').value   = s.total;
-            f.querySelector('#hid-overpayment').value     = s.over;
-          }
-        
-          const applyBtn = document.getElementById('btn-apply-loan');
-          if (applyBtn) {
-            applyBtn.addEventListener('click', (e) => {
-              e.preventDefault();
-              if (typeof calculateLoan === 'function') { try { calculateLoan(); } catch(_){} }
-              pushCalcToForm();
-              document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
-            });
-          }
-        
-          const form = document.getElementById('contact-form');
-          if (form) {
-            form.addEventListener('submit', () => {
-              if (typeof calculateLoan === 'function') { try { calculateLoan(); } catch(_){} }
-              pushCalcToForm();
-              try { ym && ym(103743642, 'reachGoal', 'lead_calculator'); } catch(_) {}
-            });
-          }
-        })();
-        
-        const $ = (s, r=document) => r.querySelector(s);
-        const fmt = (n) => new Intl.NumberFormat('ru-RU', { maximumFractionDigits: 0 }).format(n);
-        const stripMoney = (txt) => +(String(txt||'').replace(/[^\d.-]/g,'')) || 0;
-        
-        function readUTM() {
-          const p = new URLSearchParams(location.search);
-          return {
-            src: p.get('utm_source')   || '',
-            med: p.get('utm_medium')   || '',
-            cmp: p.get('utm_campaign') || '',
-            cnt: p.get('utm_content')  || '',
-            trm: p.get('utm_term')     || ''
-          };
-        }
-        
-        function readCalcState() {
-          const amountEl  = $('#loan-amount');
-          const termEl    = $('#loan-term');
-          const rateEl    = $('#interest-rate');
-          const ptype     = $('input[name="payment-type"]:checked')?.value || 'annuity';
-          const monthlyEl = $('#monthly-payment');
-          const totalEl   = $('#total-payment');
-          const overEl    = $('#overpayment');
-        
-          return {
-            amount:  parseFloat(amountEl?.value || 0),
-            term:    parseFloat(termEl?.value || 0),
-            rate:    parseFloat(rateEl?.value || 0),
-            type:    ptype,
-            monthly: stripMoney(monthlyEl?.textContent),
-            total:   stripMoney(totalEl?.textContent),
-            over:    stripMoney(overEl?.textContent),
-        
-            monthlyTxt: monthlyEl?.textContent || '',
-            totalTxt:   totalEl?.textContent   || '',
-            overTxt:    overEl?.textContent    || '',
-          };
-        }
-        
-        function fillModalFromCalc() {
-          if (typeof calculateLoan === 'function') { try { calculateLoan(); } catch(_){} }
-        
-          const s = readCalcState();
-          $('#ui-loan-amount').value     = fmt(s.amount) + ' ₽';
-          $('#ui-loan-term').value       = s.term;
-          $('#ui-interest-rate').value   = s.rate;
-          $('#ui-payment-type').value    = s.type === 'annuity' ? 'Аннуитетный' : 'Дифференцированный';
-          $('#ui-monthly-payment').value = s.monthlyTxt || (fmt(s.monthly) + ' ₽');
-          $('#ui-total-payment').value   = s.totalTxt   || (fmt(s.total)   + ' ₽');
-          $('#ui-overpayment').value     = s.overTxt    || (fmt(s.over)    + ' ₽');
-        
-          $('#hid-loan-amount').value     = s.amount;
-          $('#hid-loan-term').value       = s.term;
-          $('#hid-interest-rate').value   = s.rate;
-          $('#hid-payment-type').value    = s.type;
-          $('#hid-monthly-payment').value = s.monthly;
-          $('#hid-total-payment').value   = s.total;
-          $('#hid-overpayment').value     = s.over;
-        
-          $('#hid-page-url').value = location.href;
-          const utm = readUTM();
-          $('#hid-utm-source').value   = utm.src;
-          $('#hid-utm-medium').value   = utm.med;
-          $('#hid-utm-campaign').value = utm.cmp;
-          $('#hid-utm-content').value  = utm.cnt;
-          $('#hid-utm-term').value     = utm.trm;
-        }
-        
-        function openLoanModal() {
-          fillModalFromCalc();
-          $('#loan-modal').classList.remove('hidden');
-          document.body.style.overflow = 'hidden'; 
-          $('#lead-name')?.focus();
-        }
-        
-        function closeLoanModal() {
-          $('#loan-modal').classList.add('hidden');
-          document.body.style.overflow = '';
-        }
-        
-
-        $('#btn-apply-loan')?.addEventListener('click', (e) => {
-          e.preventDefault();
-          openLoanModal();
-        });
-        
-
-        $('#loan-modal-close')?.addEventListener('click', closeLoanModal);
-        $('#loan-modal')?.addEventListener('click', (e) => {
-          if (e.target === $('#loan-modal')) closeLoanModal(); // клик по фону
-        });
-        document.addEventListener('keydown', (e) => {
-          if (e.key === 'Escape' && !$('#loan-modal').classList.contains('hidden')) closeLoanModal();
-        });
-        
-        const modalForm = $('#loan-modal-form');
-        if (modalForm) {
-          modalForm.addEventListener('submit', async (e) => {
-            e.preventDefault();
-            fillModalFromCalc();
-        
-            // ----- CRM  -----
-            const CRM_WEBHOOK = "https://crm.example.com/webhook"; // <- замени
-            const payload = Object.fromEntries(new FormData(modalForm).entries());
-        
-            try {
-              await fetch(CRM_WEBHOOK, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload)
-              });
-              try { ym && ym(103743642, 'reachGoal', 'lead_calculator_modal'); } catch(_) {}
-              alert('Спасибо! Заявка отправлена. Мы свяжемся с вами.');
-              modalForm.reset();
-              closeLoanModal();
-              return;
-            } catch (err) {
-              console.warn('CRM send failed, trying Google Form...', err);
-            }
-          });
-        }
         
         // Chat functionality
         const chatButton = document.getElementById('chat-button');
@@ -999,11 +836,9 @@
         sendMessage.addEventListener('click', function() {
             const message = chatInput.value.trim();
             if (message) {
-                // Add user message
                 addMessage(message, 'user');
                 chatInput.value = '';
                 
-                // Simulate bot response after delay
                 setTimeout(() => {
                     const responses = [
                         "Спасибо за ваше сообщение! Наш специалист свяжется с вами в ближайшее время.",
@@ -1050,7 +885,6 @@
                         behavior: 'smooth'
                     });
                     
-                    // Close mobile menu if open
                     const mobileMenu = document.getElementById('mobile-menu');
                     if (!mobileMenu.classList.contains('hidden')) {
                         mobileMenu.classList.add('hidden');
@@ -1058,98 +892,9 @@
                 }
             });
         });
-    document.getElementById('btn-credit').addEventListener('click', function() {
-        document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
-    });
-
-    document.getElementById('btn-callback').addEventListener('click', function() {
-        document.getElementById('contact-form').scrollIntoView({ behavior: 'smooth' });
-    });
     </script>
-    <!-- Modal: Заявка на кредит -->
-    <div id="loan-modal" class="fixed inset-0 z-[10000] hidden">
-      <!-- фон -->
-      <div class="absolute inset-0 bg-black/50"></div>
-    
-      <!-- карточка -->
-      <div class="relative mx-auto my-10 w-[92%] max-w-md rounded-2xl bg-white shadow-xl">
-        <div class="flex items-center justify-between p-4 border-b">
-          <h3 class="text-lg font-semibold">Заявка на кредит</h3>
-          <button id="loan-modal-close" type="button" class="text-gray-500 hover:text-gray-700">
-            ✕
-          </button>
-        </div>
-    
-        <form id="loan-modal-form" class="p-4 space-y-4">
-          <div>
-            <label class="block text-sm font-medium mb-1" for="lead-name">Ваше имя</label>
-            <input id="lead-name" name="name" type="text"
-                   class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-500" required>
-          </div>
-          <div>
-            <label class="block text-sm font-medium mb-1" for="lead-phone">Телефон</label>
-            <input id="lead-phone" name="phone" type="tel"
-                   class="w-full p-3 border rounded-lg focus:ring-2 focus:ring-green-500" required>
-          </div>
-    
-          <!-- Параметры калькулятора (readonly, для пользователя) -->
-          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-sm">
-            <div>
-              <label class="block mb-1">Сумма</label>
-              <input id="ui-loan-amount" type="text" class="w-full p-2 border rounded" readonly>
-            </div>
-            <div>
-              <label class="block mb-1">Срок (мес.)</label>
-              <input id="ui-loan-term" type="text" class="w-full p-2 border rounded" readonly>
-            </div>
-            <div>
-              <label class="block mb-1">Ставка (%)</label>
-              <input id="ui-interest-rate" type="text" class="w-full p-2 border rounded" readonly>
-            </div>
-            <div>
-              <label class="block mb-1">Тип платежа</label>
-              <input id="ui-payment-type" type="text" class="w-full p-2 border rounded" readonly>
-            </div>
-            <div>
-              <label class="block mb-1">Ежемесячный платёж</label>
-              <input id="ui-monthly-payment" type="text" class="w-full p-2 border rounded" readonly>
-            </div>
-            <div>
-              <label class="block mb-1">Итого выплат</label>
-              <input id="ui-total-payment" type="text" class="w-full p-2 border rounded" readonly>
-            </div>
-            <div class="sm:col-span-2">
-              <label class="block mb-1">Переплата</label>
-              <input id="ui-overpayment" type="text" class="w-full p-2 border rounded" readonly>
-            </div>
-          </div>
-    
-          <!-- HIDDEN для CRM/Google Form -->
-          <input type="hidden" name="loan_amount"      id="hid-loan-amount">
-          <input type="hidden" name="loan_term"        id="hid-loan-term">
-          <input type="hidden" name="interest_rate"    id="hid-interest-rate">
-          <input type="hidden" name="payment_type"     id="hid-payment-type">
-          <input type="hidden" name="monthly_payment"  id="hid-monthly-payment">
-          <input type="hidden" name="total_payment"    id="hid-total-payment">
-          <input type="hidden" name="overpayment"      id="hid-overpayment">
-          <input type="hidden" name="lead_source"      value="calculator_modal">
-          <input type="hidden" name="page_url"         id="hid-page-url">
-          <input type="hidden" name="utm_source"       id="hid-utm-source">
-          <input type="hidden" name="utm_medium"       id="hid-utm-medium">
-          <input type="hidden" name="utm_campaign"     id="hid-utm-campaign">
-          <input type="hidden" name="utm_content"      id="hid-utm-content">
-          <input type="hidden" name="utm_term"         id="hid-utm-term">
-    
-          <button type="submit" class="w-full bg-green-500 text-white py-3 rounded-lg hover:bg-green-600">
-            Отправить заявку
-          </button>
-    
-          <p class="text-xs text-gray-500 text-center">
-            Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
-          </p>
-        </form>
-      </div>
-    </div>
-    
+
+    <!-- Интеграция с Bitrix24 CRM -->
+    <script src="bitrix24-integration.js"></script>
 </body>
 </html>
